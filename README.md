@@ -1,4 +1,4 @@
-# lindo-ai
+# lindo.ai
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,5 +64,134 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-lindo-ai is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://lindo.ai/
+Lindo.ai provides a white‑label AI website builder platform that enables agencies and developers to generate, customize, and deliver client websites automatically. Using large language models, the service can turn business information, Google Business profiles, PDFs, or design files into fully functional, branded sites. Features include AI‑driven content creation, multilingual support, SEO tools, client management, billing, and integration with popular AI agents like Claude and Hermes. The platform targets web‑design agencies, digital‑marketing firms, freelancers, SaaS providers, and entrepreneurs looking to scale website production under their own brand.
+
+**Areas:** AI · Website Builder · White Label · Automation · SaaS
+
+## lindo.ai on APIs.io
+
+Everything profiled for lindo.ai is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/lindo-ai/](https://apis.io/providers/lindo-ai/)** — or go straight to one of the APIs or properties below.
+
+### APIs (2)
+
+- [Unified API](https://apis.io/apis/lindo-ai/unified-api/) — Unified API for Lindo.ai - Includes workspace management, websites, pages, blogs, workflows, credits, and analytics
+- [Lindo Unified API API](https://apis.io/apis/lindo-ai/lindo-unified-api-api/) — Unified API for Lindo.ai - Includes workspace management, websites, pages, blogs, workflows, credits, and analytics
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### AsyncAPI (1)
+
+Event-driven and webhook contracts.
+
+- [Lindo Ai Webhooks](https://apis.io/asyncapis/lindo-ai/lindo-ai-webhooks/)
+
+#### JSON Schema (6)
+
+The data models the API reads and writes.
+
+- [BatchBlogStatusResponse](https://apis.io/schemas/lindo-ai/lindo-ai-batch-blog-status-response/)
+- [BatchWebsiteStatusResponse](https://apis.io/schemas/lindo-ai/lindo-ai-batch-website-status-response/)
+- [BlogCreateRequest](https://apis.io/schemas/lindo-ai/lindo-ai-blog-create-request/)
+- [BlogPublishRequest](https://apis.io/schemas/lindo-ai/lindo-ai-blog-publish-request/)
+- [CreditsResponse](https://apis.io/schemas/lindo-ai/lindo-ai-credits-response/)
+- [ProductCreateRequest](https://apis.io/schemas/lindo-ai/lindo-ai-product-create-request/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Lindo Ai Context](https://apis.io/jsonld/lindo-ai/lindo-ai-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [lindo.ai API Rules](https://apis.io/rules/lindo-ai/lindo-ai-rules/)
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [lindo.ai Domain Security](https://apis.io/security/lindo-ai/lindo-ai-domain-security/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [lindo.ai Plans Pricing](https://apis.io/plans/lindo-ai/lindo-ai-plans-pricing/)
+
+#### Rate limits (1)
+
+Published request limits.
+
+- [lindo.ai Rate Limits](https://apis.io/rate-limits/lindo-ai/lindo-ai-rate-limits/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://lindo.ai/)
+- [Documentation](https://docs.lindo.ai/)
+- [Getting started](https://lindo.ai/docs/getting-started/introduction)
+- [Pricing](https://lindo.ai/pricing)
+- [Terms of service](https://lindo.ai/terms)
+- [Privacy policy](https://lindo.ai/privacy)
+- [GitHub](https://github.com/lindoai)
+
+## API Evangelist rating
+
+**Kin Score 58.3** — strong · rubric 0.28.0 · scored 2026-11-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 76.7 |
+| Contract quality | 64.9 |
+| Contract governance | 79.1 |
+| Operational transparency | 43.3 |
+| Developer ergonomics | 35.7 |
+| Access clarity | 59.1 |
+
+**Agent readiness 42.6** — agent-ready (gated down from agent-native)
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | served (partial credit) |
+| Idempotency | — |
+| Error Semantics | derived (partial credit) |
+| OpenAPI Examples | — |
+| Rate Limit Signal | documented (partial credit) |
+| Event Surface Described | unknown |
+| Agent Skills | — |
+| Well Known Catalog | yes |
+| Consent Identity | — |
+| Agent Card | conformant |
+| Dry Run Mode | — |
+| Delegated Identity | served (partial credit) |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | na |
+| MCP Tool Quality | na |
+
+**Regulatory alignment 17.3** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/lindo-ai/](https://apis.io/providers/lindo-ai/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for lindo.ai: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/lindo-ai/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
